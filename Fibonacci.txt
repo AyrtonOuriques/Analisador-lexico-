@@ -1,0 +1,13 @@
+int entrada;
+scan("%d", entrada);
+int i;
+int proxtermo;
+int t1 = 0;
+int t2 = 1;
+for(i=0,i<entrada,i++);
+{;
+	print("%d", t1);
+	proxtermo = t1 + t2;
+	t1 = t2;
+	t2 = proxtermo;
+};
