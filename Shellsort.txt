@@ -22,5 +22,5 @@ for (interval = n / 2, interval > 0, interval = interval/2);
 };
 for (i = 0, i < size, i++) ;
 {;
-  printf("%d  ", data[i]);
+  print("%d  ", data[i]);
 };
