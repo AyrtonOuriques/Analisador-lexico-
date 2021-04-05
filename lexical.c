@@ -8,7 +8,7 @@ int nome(char linha[], int indice, int coluna)
     int aux = coluna;
     int i=0;
     char identificador[20] = {};
-    while( linha[aux] != ';' && linha[aux] != '=' && linha[aux] != ')' && linha[aux] != '(' && linha[aux] != '+' && linha[aux] != '-' && linha[aux] != '<' && linha[aux] != '>' && linha[aux] != ','  && linha[aux] != '[' && linha[aux] != '*' && linha[aux] != '/')
+    while( linha[aux] != ';' && linha[aux] != '=' && linha[aux] != ')' && linha[aux] != '(' && linha[aux] != '+' && linha[aux] != '-' && linha[aux] != '<' && linha[aux] != '>' && linha[aux] != ','  && linha[aux] != '[' && linha[aux] != '*' && linha[aux] != '/' && linha[aux] != '&' && linha[aux] != '|')
     {
         if( linha[aux] != ' ')
         {
